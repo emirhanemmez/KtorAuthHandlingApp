@@ -1,0 +1,144 @@
+REQUEST: http://10.0.2.2:8080/authHi
+                                                                                                    METHOD: HttpMethod(value=GET)
+                                                                                                    COMMON HEADERS
+                                                                                                    -> Accept: application/json; application/json
+                                                                                                    -> Accept-Charset: UTF-8
+                                                                                                    -> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdWRpZW5jZSIsImlzcyI6Imlzc3VlciIsInVzZXJuYW1lIjoiZW1pciIsImV4cCI6MTY4NDMxNDI4OX0.dao--pqYqR_zzXaRaeKk2bvDNKpyZ3Wa9wvBumKHUAY
+                                                                                                    -> Content-Type: application/json
+                                                                                                    CONTENT HEADERS
+                                                                                                    -> Content-Length: 0
+                                                                                                    BODY Content-Type: null
+                                                                                                    BODY START
+                                                                                                    
+                                                                                                    BODY END
+2023-05-19 18:44:04.850  2610-2761  HttpClient              com.eemmez.ktorauthhandlingapp       I  REQUEST: http://10.0.2.2:8080/authHello
+                                                                                                    METHOD: HttpMethod(value=GET)
+                                                                                                    COMMON HEADERS
+                                                                                                    -> Accept: application/json; application/json
+                                                                                                    -> Accept-Charset: UTF-8
+                                                                                                    -> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdWRpZW5jZSIsImlzcyI6Imlzc3VlciIsInVzZXJuYW1lIjoiZW1pciIsImV4cCI6MTY4NDMxNDI4OX0.dao--pqYqR_zzXaRaeKk2bvDNKpyZ3Wa9wvBumKHUAY
+                                                                                                    -> Content-Type: application/json
+                                                                                                    CONTENT HEADERS
+                                                                                                    -> Content-Length: 0
+                                                                                                    BODY Content-Type: null
+                                                                                                    BODY START
+                                                                                                    
+                                                                                                    BODY END
+2023-05-19 18:44:04.874  2610-2762  TrafficStats            com.eemmez.ktorauthhandlingapp       D  tagSocket(98) with statsTag=0xffffffff, statsUid=-1
+2023-05-19 18:44:04.874  2610-2760  TrafficStats            com.eemmez.ktorauthhandlingapp       D  tagSocket(95) with statsTag=0xffffffff, statsUid=-1
+2023-05-19 18:44:05.484  2610-2764  HttpClient              com.eemmez.ktorauthhandlingapp       I  RESPONSE: 401 Unauthorized
+                                                                                                    METHOD: HttpMethod(value=GET)
+                                                                                                    FROM: http://10.0.2.2:8080/authHello
+                                                                                                    COMMON HEADERS
+                                                                                                    -> connection: keep-alive
+                                                                                                    -> content-length: 13
+                                                                                                    -> content-type: text/plain; charset=UTF-8
+                                                                                                    -> www-authenticate: Bearer
+                                                                                                    -> x-android-received-millis: 1684511045465
+                                                                                                    -> x-android-response-source: NETWORK 401
+                                                                                                    -> x-android-selected-protocol: http/1.1
+                                                                                                    -> x-android-sent-millis: 1684511044877
+                                                                                                    BODY Content-Type: text/plain; charset=UTF-8
+                                                                                                    BODY START
+                                                                                                    Unauthorized!
+                                                                                                    BODY END
+2023-05-19 18:44:05.484  2610-2758  HttpClient              com.eemmez.ktorauthhandlingapp       I  RESPONSE: 401 Unauthorized
+                                                                                                    METHOD: HttpMethod(value=GET)
+                                                                                                    FROM: http://10.0.2.2:8080/authHi
+                                                                                                    COMMON HEADERS
+                                                                                                    -> connection: keep-alive
+                                                                                                    -> content-length: 13
+                                                                                                    -> content-type: text/plain; charset=UTF-8
+                                                                                                    -> www-authenticate: Bearer
+                                                                                                    -> x-android-received-millis: 1684511045465
+                                                                                                    -> x-android-response-source: NETWORK 401
+                                                                                                    -> x-android-selected-protocol: http/1.1
+                                                                                                    -> x-android-sent-millis: 1684511044877
+                                                                                                    BODY Content-Type: text/plain; charset=UTF-8
+                                                                                                    BODY START
+                                                                                                    Unauthorized!
+                                                                                                    BODY END
+                                                                                                    
+2023-05-19 18:44:05.489  2610-2761  HttpClient              com.eemmez.ktorauthhandlingapp       I  REQUEST: http://10.0.2.2:8080/refreshToken?refreshToken=this_is_refresh_token
+                                                                                                    METHOD: HttpMethod(value=GET)
+                                                                                                    COMMON HEADERS
+                                                                                                    -> Accept: application/json; application/json
+                                                                                                    -> Accept-Charset: UTF-8
+                                                                                                    -> Content-Type: application/json
+                                                                                                    CONTENT HEADERS
+                                                                                                    -> Content-Length: 0
+                                                                                                    BODY Content-Type: null
+                                                                                                    BODY START
+                                                                                                    
+                                                                                                    BODY END
+2023-05-19 18:44:05.571  2610-2762  HttpClient              com.eemmez.ktorauthhandlingapp       I  RESPONSE: 200 OK
+                                                                                                    METHOD: HttpMethod(value=GET)
+                                                                                                    FROM: http://10.0.2.2:8080/refreshToken?refreshToken=this_is_refresh_token
+                                                                                                    COMMON HEADERS
+                                                                                                    -> connection: keep-alive
+                                                                                                    -> content-length: 256
+                                                                                                    -> content-type: application/json; charset=UTF-8
+                                                                                                    -> x-android-received-millis: 1684511045569
+                                                                                                    -> x-android-response-source: NETWORK 200
+                                                                                                    -> x-android-selected-protocol: http/1.1
+                                                                                                    -> x-android-sent-millis: 1684511045490
+                                                                                                    BODY Content-Type: application/json; charset=UTF-8
+                                                                                                    BODY START
+                                                                                                    {"bearerToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdWRpZW5jZSIsImlzcyI6Imlzc3VlciIsInVzZXJuYW1lIjoidXNlciIsImV4cCI6MTY4NDUxMTA2OH0.DUcBSo4mxIGJZ-xOmjVkMrKhfvD-QbhNOIiFR7e_Bi0","refreshToken":"this_is_refresh_token","expirationTimeInMillis":0}
+                                                                                                    BODY END
+2023-05-19 18:44:05.577  2610-2774  HttpClient              com.eemmez.ktorauthhandlingapp       I  REQUEST: http://10.0.2.2:8080/authHello
+                                                                                                    METHOD: HttpMethod(value=GET)
+                                                                                                    COMMON HEADERS
+                                                                                                    -> Accept: application/json; application/json
+                                                                                                    -> Accept-Charset: UTF-8
+                                                                                                    -> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdWRpZW5jZSIsImlzcyI6Imlzc3VlciIsInVzZXJuYW1lIjoidXNlciIsImV4cCI6MTY4NDUxMTA2OH0.DUcBSo4mxIGJZ-xOmjVkMrKhfvD-QbhNOIiFR7e_Bi0
+                                                                                                    -> Content-Type: application/json
+                                                                                                    CONTENT HEADERS
+                                                                                                    -> Content-Length: 0
+                                                                                                    BODY Content-Type: null
+                                                                                                    BODY START
+                                                                                                    
+                                                                                                    BODY END
+2023-05-19 18:44:05.577  2610-2772  HttpClient              com.eemmez.ktorauthhandlingapp       I  REQUEST: http://10.0.2.2:8080/authHi
+                                                                                                    METHOD: HttpMethod(value=GET)
+                                                                                                    COMMON HEADERS
+                                                                                                    -> Accept: application/json; application/json
+                                                                                                    -> Accept-Charset: UTF-8
+                                                                                                    -> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdWRpZW5jZSIsImlzcyI6Imlzc3VlciIsInVzZXJuYW1lIjoidXNlciIsImV4cCI6MTY4NDUxMTA2OH0.DUcBSo4mxIGJZ-xOmjVkMrKhfvD-QbhNOIiFR7e_Bi0
+                                                                                                    -> Content-Type: application/json
+                                                                                                    CONTENT HEADERS
+                                                                                                    -> Content-Length: 0
+                                                                                                    BODY Content-Type: null
+                                                                                                    BODY START
+                                                                                                    
+                                                                                                    BODY END
+2023-05-19 18:44:05.597  2610-2760  HttpClient              com.eemmez.ktorauthhandlingapp       I  RESPONSE: 200 OK
+                                                                                                    METHOD: HttpMethod(value=GET)
+                                                                                                    FROM: http://10.0.2.2:8080/authHello
+                                                                                                    COMMON HEADERS
+                                                                                                    -> connection: keep-alive
+                                                                                                    -> content-length: 26
+                                                                                                    -> content-type: text/plain; charset=UTF-8
+                                                                                                    -> x-android-received-millis: 1684511045595
+                                                                                                    -> x-android-response-source: NETWORK 200
+                                                                                                    -> x-android-selected-protocol: http/1.1
+                                                                                                    -> x-android-sent-millis: 1684511045579
+                                                                                                    BODY Content-Type: text/plain; charset=UTF-8
+                                                                                                    BODY START
+                                                                                                    Authenticated Hello World!
+                                                                                                    BODY END
+2023-05-19 18:44:05.598  2610-2760  HttpClient              com.eemmez.ktorauthhandlingapp       I  RESPONSE: 200 OK
+                                                                                                    METHOD: HttpMethod(value=GET)
+                                                                                                    FROM: http://10.0.2.2:8080/authHi
+                                                                                                    COMMON HEADERS
+                                                                                                    -> connection: keep-alive
+                                                                                                    -> content-length: 3
+                                                                                                    -> content-type: text/plain; charset=UTF-8
+                                                                                                    -> x-android-received-millis: 1684511045595
+                                                                                                    -> x-android-response-source: NETWORK 200
+                                                                                                    -> x-android-selected-protocol: http/1.1
+                                                                                                    -> x-android-sent-millis: 1684511045579
+                                                                                                    BODY Content-Type: text/plain; charset=UTF-8
+                                                                                                    BODY START
+                                                                                                    Hi!
+                                                                                                    BODY END
